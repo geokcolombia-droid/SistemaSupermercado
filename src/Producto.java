@@ -15,7 +15,9 @@ public class Producto {
     public double calcularTotal() {
 
         return precio * cantidad;
+    
+public String getNombre() {
 
-    }
+    return nombre;
 
 }
